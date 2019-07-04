@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>SolarPanels</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cssmenu">
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li class="has-sub"><a href="about.html">Informacje</a>
+                <ul>
+                    <li><a href="about.html">O firmie</a></li>
+                    <li class="last"><a href="work.html">Oferty pracy</a></li>
+                </ul>
+            </li>
+            <li><a href="offer.html">Oferta</a></li>
+            <li><a href="portfolio.html">Realizacje</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active last"><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </div>
+    <header class="header">
+        <h1 class="header__logo">Solar<span class="text--olive">Panels</span></h1>
+    </header>
+    <main class="contact">
+        <h3 class="section__header">Skontaktuj się <span class="text--olive">z nami</span>!</h3>
+
+        <h4 class="contact__title">Wyślij maila</h4>
+        <form action="" class="contact__form">
+            <input type="text" placeholder="Imię i nazwisko"><br>
+            <input type="email" placeholder="E-mail"><br>
+            <input type="text" placeholder="Temat"><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <button class="button--light">Wyślij</button>
+        </form>
+
+        <h4 class="contact__title">Albo odwiedź nas na miejscu</h4>
+        <div class="contact__container">
+            <div class="contact__address">
+                <i class="fas fa-map-marker-alt"></i><br>
+                1659 Marshville Road<br>
+                Pleasant Valley Dut<br>
+                New York 12569
+            </div>
+            <div class="contact__map">
+                <img src="img/contact_photo.jpg" alt="map">
+            </div>
+        </div>        
+    </main>
+    <footer class="footer">
+        <section class="footer__section">
+            <h2 class="footer__section--logo"><span class="text--light">Solar</span>Panels</h2>
+            <h5 class="footer__section--copyright">Stronę wykonała Natalia Łachacz</h5>
+        </section>
+        <section class="footer__section">
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="about.html">O firmie</a></li>
+                <li><a href="work.html">Oferty pracy</a></li>
+                <li><a href="offer.html">Oferta</a></li>
+                <li><a href="portfolio.html">Realizacje</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </section>
+        <section class="footer__section footer__section--contact">
+            <div>
+                <i class="fas fa-map-marker-alt footer__icon"></i><br>
+                1659 Marshville Road<br>
+                Pleasant Valley Dut<br>
+                New York 12569
+            </div>
+            <div>
+                <i class="fas fa-envelope footer__icon"></i><br>
+                <span class="text--bold text--light">e-mail:</span> adresemail@gmail.com<br>
+                <span class="text--bold text--light">telefon:</span> 765432534
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
